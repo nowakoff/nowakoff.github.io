@@ -33,8 +33,6 @@ li > a{color: white}
 
 /*Automic */
 .debug{ border: 1px solid red }
-.m-a{ margin: auto}
-.m-0{ margin: 0}
 .fl-l{ float: left}
 .fl-r{ float: right}
 .pos-r{ position: relative}
@@ -49,23 +47,29 @@ li > a{color: white}
 .cl-b{clear: both;}
 .di-inb{display: inline-block;}
 .white{ color: white;}
+.c-sewage{color: #A48083}
+.heaven{color: #A1DBFA ;}
+.ba-mickey{background-color: #D4D4D4}
+.ba-sewage{background-color: #A48083}
+.ba-tree{background-color: #776369}
+.fs-ml{font-size:2em;}
 .fs-l{font-size:3em;}
 .fs-li{font-size:3em !important; }
 .fs-xl{font-size:6em;}
 .fs-xli{font-size:6em !important; }
 .ff-ver{font-family: verdana;}
-.ba-mickey{background-color: #D4D4D4}
-.ba-sewage{background-color: #A48083}
-.ba-tree{background-color: #776369}
-.c-sewage{color: #A48083}
-.b-rad{border-radius: 10px}
+.m-a{ margin: auto}
+.m-0{ margin: 0}
 .m-1em{margin: 1em}
 .m-m{margin: 2em}
 .m-3em{margin: 3em}
 .mr-1em{margin-right: 1em}
 .ml-1em{margin-left: 1em}
 .ml-sm{margin-left: 2.3em}
+.mt-m{margin-top: 2em}
+.mt-l{margin-top: 4em}
 .mt-xl{margin-top: 6em}
+.p-s {padding: 1em}
 .p-rel{position: relative;}
 .p-ab{position: absolute;}
 .w-100pro {width: 100%}
@@ -81,13 +85,27 @@ li > a{color: white}
 .b-mickey {border-color: #A48083}
 .bsi-01{border-width: 0.1em}
 .di-ib{display: inline-block;}
+.di-b{display: block;}
 .b-radious{border-radius: 1em}
+.b-rad{border-radius: 10px}
 
 
 
 
+H1 element.style {
+    COLOR: #A1DBFA;
+    FONT-FAMILY: VERDANA;
+    FONT-SIZE: 2EM;
+}
 
 
+P element.style {
+    FONT-FAMILY: VERDANA;
+    BORDER: 0.1EM SOLID #A48083;
+    BORDER-RADIUS: 1EM;
+    PADDING: 1EM;
+    COLOR: #A48083;
+}
 
 
 
