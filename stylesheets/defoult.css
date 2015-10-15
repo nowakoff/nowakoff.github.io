@@ -1,5 +1,5 @@
 .container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -22,11 +22,11 @@ border-radius: 10px;}
 
 nav > ul > li { background-color: #A48083; }
 
+section > div > a > img {
+    padding-top: 1.5em
+}
 li > a{color: white}
 
-.fancyTitle {
-	margin-top: 223px;
-}
 
 
 
@@ -42,8 +42,10 @@ li > a{color: white}
 .h-50pro{ height: 50%  }
 .h-200{ height: 10em; }
 .w-100pro{ width: 100%  }
+.w-25pro{ width: 25%  }
 .w-30pro{ width: 30%  }
 .w-50pro{ width: 50%  }
+.w-90pro{ width: 90%  }
 .cl-b{clear: both;}
 .di-inb{display: inline-block;}
 .white{ color: white;}
@@ -58,7 +60,40 @@ li > a{color: white}
 .c-sewage{color: #A48083}
 .b-rad{border-radius: 10px}
 .m-1em{margin: 1em}
+.m-m{margin: 2em}
 .m-3em{margin: 3em}
 .mr-1em{margin-right: 1em}
 .ml-1em{margin-left: 1em}
+.ml-sm{margin-left: 2.3em}
+.mt-xl{margin-top: 6em}
+.p-rel{position: relative;}
+.p-ab{position: absolute;}
+.w-100pro {width: 100%}
+.h-l{height: 4em}
+.o-05{opacity: 0.6}
+.zi--1{z-index: -1}
+.zi-0{z-index: 0}
+.zi-1{z-index: 1}
+.zi-2{z-index: 2}
+.zi-3{z-index: 3}
+.zi-4{z-index: 4}
+.solid {border-style: solid;}
+.b-mickey {border-color: #A48083}
+.bsi-01{border-width: 0.1em}
+.di-ib{display: inline-block;}
+.b-radious{border-radius: 1em}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+p
