@@ -49,14 +49,18 @@ li > a{color: white}
 .white{ color: white;}
 .c-sewage{color: #A48083}
 .heaven{color: #A1DBFA ;}
+.c-mickey{color: #D4D4D4}
 .ba-mickey{background-color: #D4D4D4}
 .ba-sewage{background-color: #A48083}
 .ba-tree{background-color: #776369}
+.fs-ms{font-size:1.35em;}
+.fs-m{font-size:1.5em;}
 .fs-ml{font-size:2em;}
 .fs-l{font-size:3em;}
 .fs-li{font-size:3em !important; }
 .fs-xl{font-size:6em;}
 .fs-xli{font-size:6em !important; }
+.fw-b{font-weight: bold}
 .ff-ver{font-family: verdana;}
 .m-a{ margin: auto}
 .m-0{ margin: 0}
@@ -92,26 +96,3 @@ li > a{color: white}
 
 
 
-H1 element.style {
-    COLOR: #A1DBFA;
-    FONT-FAMILY: VERDANA;
-    FONT-SIZE: 2EM;
-}
-
-
-P element.style {
-    FONT-FAMILY: VERDANA;
-    BORDER: 0.1EM SOLID #A48083;
-    BORDER-RADIUS: 1EM;
-    PADDING: 1EM;
-    COLOR: #A48083;
-}
-
-
-
-
-
-
-
-
-p
