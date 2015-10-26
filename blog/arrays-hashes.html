@@ -4,9 +4,8 @@
 <head>
   <title>Blog-Template</title>
   <meta charset="utf-8">
-
-  <link rel="stylesheet" type="text/css" href="../stylesheets/defoult.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/defoult.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
@@ -48,21 +47,71 @@
 
   <main>
   <section class="container mt-l">
-  <h1 class="ff-v fs-ml heaven">Git, GitHub and Version Control</h1>
+  <h1 class="ff-v fs-ml heaven">Arrays vs. Hashes</h1>
  
 
   
-    <p class="c-sewage ff-ver bsi-01 solid b-radious p-s pre">
-  There are many benefits of using a version control system for your projects. It helps to collaborate with colleagues on projects. Also, it makes it easier  to reverse any of the contribution you or your colleague made. Think about this, no more hours of debugging, just small command which will reverse recent commit and you can keep contributing to the project without hours of troubleshooting.
-     Version Control also makes your work organized. You know why and when you created a file. You can observe your progress. 
+    <p class="c-sewage ff-ver bsi-01 solid b-radious p-s">
+
+When you want to store information you can use arrays or hashes. Using arrays has the most sense when you want to put your elements in certain order. Using hashes makes the most sense when you want to access elements using certain, unique label called key.
+<span class="m-1em di-b"></span>
+Array 
+
+Array indexing starts with 0. A negative index is assumed relative to the end of the array. That is, an index of -1 indicates the last element of the array, -2 is the next element and so on. 
+animals = [‘cat’, ‘frog’, ‘dog’]
+<span class="m-1em di-b"></span>
+Array Indices 
+
+>> animals = [0]
+=> ‘cat'
+
+You can create empty arrays by new class method:
+ 
+months =Array.new
+
+or 
+
+months = []
+
+<span class="m-1em di-b"></span>
+Hash
+
+A hash is a collection of key-value pairs  like this “pet” => “cat”. It is similar to array, expect that indexing is made by keys name, not integers. 
+
+animals = {
+:mammals => 'horse’,
+:carnivore => ‘dinosaur’
+:pet => [‘cat’,’dog’]
+}
+<span class="m-1em di-b"></span>
+Getting the value from hashes 
+
+>> animals[:pet]
+=> [‘cat’,’dog’]
+<span class="m-1em di-b"></span>
+You can create empty hash by new class method:
+ 
+months = Hash.new
+
+or 
+
+months = {}
+<span class="m-1em di-b"></span>
+
+You can see all keys names by:
+
+keys = months.keys
+
+You can see values name by:
+
+hash.key
      <span class="m-1em di-b"></span>
     
-        Git helps keep track of changes. For example, you can commit small parts of code with a comments explaining the functionality of the component. Also, when typing 'git log' you are able to see all the logs ( changes ) in your project. 
+    
      
       <span class="m-1em di-b"></span>
       
-        GitHub is one of the most popular repositories for code storing. It enables you to see all the addition ( in green) and deletion ( in red) you made in nice, visual way. Also, you are able to see comments of every commit and the date when commits were created. GitHub also makes it easier to collaborate with your colleagues. You can push to the same file in the same time. When error occurs, you just simply pick better version of code.     </p>
-
+       
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
