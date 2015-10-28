@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog-Template</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/defoult.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header class="container">
+    <div class="header-div p-rel">  
+      <div class="mt-xl p-ab zi-3">
+        <h2 class="white fs-50 ff-ver zi-4 ml-sm">I lost all my pixels somewhere there in Warsaw</h2>
+      </div>
+      <div class="ba-sewage p-ab w-100pro h-l o-05 mt-xl zi-2"></div>
+      <img src="../imgs/warsaw.jpg" alt="Header img zi-1">
+      </div>
+      
+    
+  
+  
+  </header>
+
+  <nav class="container">
+    <ul>
+      <li><a href="http://nowakoff.github.io/index.html">Home</a></li>
+      <li><a href="http://nowakoff.github.io/index.html">About Me</a></li>
+      <li><a href="http://nowakoff.github.io/posts.html">Blog</a></li>
+      <li><a href="http://nowakoff.github.io/index.html">Portfolio</a></li>
+      <li><a href="http://nowakoff.github.io/contacts.html">Contact</a></li>
+    </ul>
+  </nav>
+  <aside class="container">
+    <ul class=".di-inb">
+      <li><a href="https://www.facebook.com/olaolanowak"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCOQ6pxxKlPWbW5VP_ve-gag"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="https://github.com/nowakoff"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/pub/aleksandra-nowak/a7/827/b1a"><i class="fa fa-linkedin-square"></i></a></li>
+      <li><a href="http://stackoverflow.com/users/4838943/aleksandra-nowak"><i class="fa fa-stack-overflow"></i></a></li>
+      <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+    </ul>
+  </aside>
+
+  <main>
+  <section class="container mt-l ">
+  <h1 class="ff-v fs-ml heaven">Arrays vs. Hashes</h1>
+ 
+
+  
+    <p class="c-sewage ff-ver bsi-01 solid b-radious p-s">
+
+When you want to store information you can use arrays or hashes. Using arrays has the most sense when you want to put your elements in certain order. Using hashes makes the most sense when you want to access elements using certain, unique label called key.
+<span class="m-1em di-b"></span>
+Array 
+
+Array indexing starts with 0. A negative index is assumed relative to the end of the array. That is, an index of -1 indicates the last element of the array, -2 is the next element and so on. 
+animals = [‘cat’, ‘frog’, ‘dog’]
+<span class="m-1em di-b"></span>
+Array Indices 
+
+>> animals = [0]
+=> ‘cat'
+
+You can create empty arrays by new class method:
+ 
+months =Array.new
+
+or 
+
+months = []
+
+<span class="m-1em di-b"></span>
+Hash
+
+A hash is a collection of key-value pairs  like this “pet” => “cat”. It is similar to array, expect that indexing is made by keys name, not integers. 
+
+animals = {
+:mammals => 'horse’,
+:carnivore => ‘dinosaur’
+:pet => [‘cat’,’dog’]
+}
+<span class="m-1em di-b"></span>
+Getting the value from hashes 
+
+>> animals[:pet]
+=> [‘cat’,’dog’]
+<span class="m-1em di-b"></span>
+You can create empty hash by new class method:
+ 
+months = Hash.new
+
+or 
+
+months = {}
+<span class="m-1em di-b"></span>
+
+You can see all keys names by:
+
+keys = months.keys
+
+You can see values name by:
+
+hash.key
+     <span class="m-1em di-b"></span>
+    
+    
+     
+      <span class="m-1em di-b"></span>
+      
+     <!-- HTML generated using hilite.me -->
+<div style="background: #272822; 
+overflow:auto;width:auto;border:solid gray;border-width:
+.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&gt;&gt;</span> 
+<span style="color: #f8f8f2">animals</span><
+span style="color: #f92672">[</span><span style="
+color: #e6db74">:pet</span><span style="color: #f92672">]
+</span>
+</pre></div>  
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
+  
+  
+
+</body>
+
+</html>
+
+
+
+
+
