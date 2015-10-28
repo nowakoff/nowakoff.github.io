@@ -1,4 +1,4 @@
-pre {
+.ruby-hilite-light {
 background-color: #f1f1f3;
 color: #112;
 padding: 5px;
@@ -7,19 +7,17 @@ font-size: 0.9em;
 overflow: auto;
 margin: 4px 0px;
 width: 95%;
+display: block
 }
 
-
-
-
-
-.ruby-hilite {
+.ruby-hilite-dark{
 	background: #272822; 
 	overflow:auto;
 	width:auto;
 	border:solid gray;
 	border-width:.1em .1em .1em .8em;
 	padding:.2em .6em;
+	display: block
 }
 
 .m-lh{

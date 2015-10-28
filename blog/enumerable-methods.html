@@ -47,83 +47,29 @@
 
   <main>
   <section class="container mt-l ">
-  <h1 class="ff-v fs-ml heaven">Arrays vs. Hashes</h1>
- 
-
-  
+    <h1 class="ff-v fs-ml heaven">En num er able !</h1>
     <p class="c-sewage ff-ver bsi-01 solid b-radious p-s">
-
-When you want to store information you can use arrays or hashes. Using arrays has the most sense when you want to put your elements in certain order. Using hashes makes the most sense when you want to access elements using certain, unique label called key.
-<span class="m-1em di-b"></span>
-Array 
-
-Array indexing starts with 0. A negative index is assumed relative to the end of the array. That is, an index of -1 indicates the last element of the array, -2 is the next element and so on. 
-animals = [‘cat’, ‘frog’, ‘dog’]
-<span class="m-1em di-b"></span>
-Array Indices 
-
->> animals = [0]
-=> ‘cat'
-
-You can create empty arrays by new class method:
- 
-months =Array.new
-
-or 
-
-months = []
-
-<span class="m-1em di-b"></span>
-Hash
-
-A hash is a collection of key-value pairs  like this “pet” => “cat”. It is similar to array, expect that indexing is made by keys name, not integers. 
-
-animals = {
-:mammals => 'horse’,
-:carnivore => ‘dinosaur’
-:pet => [‘cat’,’dog’]
-}
-<span class="m-1em di-b"></span>
-Getting the value from hashes 
-
->> animals[:pet]
-=> [‘cat’,’dog’]
-<span class="m-1em di-b"></span>
-You can create empty hash by new class method:
- 
-months = Hash.new
-
-or 
-
-months = {}
-<span class="m-1em di-b"></span>
-
-You can see all keys names by:
-
-keys = months.keys
-
-You can see values name by:
-
-hash.key
-     <span class="m-1em di-b"></span>
-    
-    
-     
-      <span class="m-1em di-b"></span>
+      <span class="s-m di-b c-mickey m-1em fs-ms fw-b">Enumerable#map</span>
+        Map method returns a new array with the results of running block once for every element. 
+      <span class="m-1em di-b">Skeleton:</span>
+      <span class="ruby-hilite-light"> map { |obj| block } </span>
+      <span class="m-1em di-b">Example:</span>
+      <span class="ruby-hilite-light"> [1, 2, 3].map { |n| n * n } #=> [1, 4, 9]</span>
       
-     <!-- HTML generated using hilite.me -->
-<div style="background: #272822; 
-overflow:auto;width:auto;border:solid gray;border-width:
-.1em .1em .1em .8em;padding:.2em .6em;">
-<pre style="margin: 0; line-height: 125%">
-<span style="color: #f92672">&gt;&gt;</span> 
-<span style="color: #f8f8f2">animals</span><
-span style="color: #f92672">[</span><span style="
-color: #e6db74">:pet</span><span style="color: #f92672">]
-</span>
-</pre></div>  
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+      <span class="s-m di-b c-mickey m-1em fs-ms fw-b">Enumerable#group_by</span>
+        Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key.
+      <span class="m-1em di-b">Skeleton:</span>
+      <span class="ruby-hilite-light"> group_by { |obj| block } </span>
+      <span class="m-1em di-b">Example:</span>
+      <span class="ruby-hilite-light"> [1, 2, 3].map { |n| n * n } #=> [1, 4, 9]</span>
+      
+      <span class="s-m di-b c-mickey m-1em fs-ms fw-b">Enumerable#cycle</span>
+        Calls block for each element of enum repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, does nothing. Returns nil if the loop has finished without getting interrupted.
+      <span class="m-1em di-b">Skeleton:</span>
+      <span class="ruby-hilite-light"> cycle(n=nil) { |obj| block }  </span>
+      <span class="m-1em di-b">Example:</span>
+      <span class="ruby-hilite-light"> a.cycle(2) { |x| puts x }  # print, a, b, c, a, b, c.</span>
+   </p>
   </section>
 </main>
 
