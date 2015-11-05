@@ -45,6 +45,10 @@ section > div > a > img {
 li > a {color: white}
 
 
+img.about-img {
+    height: 400px;
+}
+
 
 
 
