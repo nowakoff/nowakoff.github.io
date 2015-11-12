@@ -1,0 +1,38 @@
+.ruby-hilite-light {
+background-color: #f1f1f3;
+color: #112;
+padding: 5px;
+font-family:"bitstream vera sans mono","lucida console","courier new",courier,serif;
+font-size: 0.9em;
+overflow: auto;
+margin: 4px 0px;
+width: 95%;
+display: block
+}
+
+.ruby-hilite-dark{
+	background: #272822; 
+	overflow:auto;
+	width:auto;
+	border:solid gray;
+	border-width:.1em .1em .1em .8em;
+	padding:.2em .6em;
+	display: block
+}
+
+.m-lh{
+	margin: 0; 
+	line-height: 125%
+}
+
+.pg{
+	color: #f92672
+}
+
+.wh{
+	color: #f8f8f2
+}
+
+.yl{
+	color: #e6db74
+}
