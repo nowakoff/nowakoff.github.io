@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog-Template</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/defoult.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header class="container">
+    <div class="header-div p-rel">  
+      <div class="mt-xl p-ab zi-3">
+        <h2 class="white fs-50 ff-ver zi-4 ml-sm">I lost all my pixels somewhere there in Warsaw</h2>
+      </div>
+      <div class="ba-sewage p-ab w-100pro h-l o-05 mt-xl zi-2"></div>
+      <img src="../imgs/warsaw.jpg" alt="Header img zi-1">
+      </div>
+      
+    
+  
+  
+  </header>
+
+  <nav class="container">
+    <ul>
+      <li><a href="http://nowakoff.github.io/index.html">Home</a></li>
+      <li><a href="http://nowakoff.github.io/index.html">About Me</a></li>
+      <li><a href="http://nowakoff.github.io/posts.html">Blog</a></li>
+      <li><a href="http://nowakoff.github.io/index.html">Portfolio</a></li>
+      <li><a href="http://nowakoff.github.io/contacts.html">Contact</a></li>
+    </ul>
+  </nav>
+  <aside class="container">
+    <ul class=".di-inb">
+      <li><a href="https://www.facebook.com/olaolanowak"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCOQ6pxxKlPWbW5VP_ve-gag"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="https://github.com/nowakoff"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/pub/aleksandra-nowak/a7/827/b1a"><i class="fa fa-linkedin-square"></i></a></li>
+      <li><a href="http://stackoverflow.com/users/4838943/aleksandra-nowak"><i class="fa fa-stack-overflow"></i></a></li>
+      <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+    </ul>
+  </aside>
+
+  <main>
+  <section class="container mt-l ">
+    <h1 class="ff-v fs-ml heaven">JS vs. Ruby! </h1>
+    <p class="c-sewage ff-ver bsi-01 solid b-radious p-s">
+      <span class="s-m di-b c-mickey m-1em fs-ms fw-b">JavaScript constructor functions</span>
+        Constructor function (when used with the new operator) purpose is to create new objects.
+
+        Since this is a function, you can do whatever you need to do to initialize the object. In this sample we’re just assigning properties. In Ruby you can do the same thing with the initialize instance method (which we’ll get to in a bit).
+
+        The following describes what the new operator does:
+        <br>
+        creates a new object
+        <br>
+        sets the constructor property of the object to the constructor function that is passed to it (Simple in the above example)
+        <br>
+        binds the new object to this
+        <br>
+        executes the constructor function
+        <br>
+        returns the new object
+        <span class="m-1em di-b"></span>
+          <span class="s-m di-b c-mickey m-1em fs-ms fw-b">Ruby classes </span>
+        Classes provide a way of creating objects with defined behaviour (methods) via the new method. The important distinction is that new is a method of Class, and not a keyword operator as it is in Javascript.
+
+Like javascript, new creates a brand new object and binds it to the current context, or self, Ruby’s equivalent to Javascript’s this. Ruby also creates a reference to the class that created it:new then passes control to the initialize method defined on the class if it exists. This is where you can do any extra initialization work on the object, like setting instance variables, similar to how you would use Javascript constructor functions.
+
+
+            
+   </p>
+  </section>
+</main>
+
+  
+  
+
+</body>
+
+</html>
+
+
+
+
+
