@@ -10,6 +10,33 @@
    
 }
 
+table { width: 70%;
+ margin: 2em;}
+
+th, td {
+   /* border: 1px solid black;*/
+    border-collapse: collapse;
+    margin: 2em;
+   
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+th { 
+    color: #7B7FB9;;
+border-radius: 10px;
+}
+td {border: 1px solid #FA91E1;
+ color: r#7B7FB9;
+ border-radius: 10px;
+}
+tr {border: 1px solid #FA91E1;
+ color: #7B7FB9;
+ border-radius: 10px;
+}
+
 
 li, ul, ol{ list-style-type: none; } 
 a { text-decoration: none; }

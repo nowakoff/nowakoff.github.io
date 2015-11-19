@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Blog-Template</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/defoult.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<header class="container">
+		<div class="header-div h-xl p-rel">	
+			<div class="mt-xl p-ab zi-3">
+				<h2 class="white fs-50 ff-ver zi-4 ml-sm">Ruby Enumerable Cheat Sheet </h2>
+			</div>
+			<div class="ba-sewage p-ab w-100pro h-l o-05 mt-xl zi-2"></div>
+			</div>
+			
+	</header>
+
+	<section class="w-90pro container">
+
+
+			<div  class="solid b-mickey bsi-01 di-ib b-radious w-25pro m-m">
+
+			<table class="">
+			  <tr>
+			    <th>Basic Methods</th>
+			    
+			  </tr>
+			  <tr>
+			    <td>count
+count(value)
+count { |x| … }</td>
+			    <td>Returns the total count of elements, or the count of elements equal to value,
+or the number of elements where the block returns “true”.</td>
+			  </tr>
+			  <tr>
+			    <td>to_a</td>
+			    <td>Returns array of all elements</td>
+			  </tr>
+			   <tr>
+			    <th>Iteration</th>
+			    
+			  </tr>
+			  <tr>
+			    <td>each { |x| … }
+each_entry { |x| … }</td>
+			    <td>Yields all elements. </td>
+			  </tr>
+			  <tr>
+			    <td>each_with_index(*args) { |x, i| … }</td>
+			    <td>Yields all elements with their indices. args are passed through to #each.</td>
+			  </tr>
+			  <tr>
+			    <td>each_cons(n) { |x| … } </td>
+			    <td>Yields each possible array of n consecutive elements.</td>
+			  </tr>
+			  <tr>
+			    <td>each_slice(n) { |x| … } </td>
+			    <td>Yields disjoint slices of n consecutive elements.</td>
+			  </tr>
+			  <tr>
+			    <td>cycle(times=nil) { |x| … } </td>
+			    <td>Yields all elements repeatedly forever or for specified number of times.</td>
+			  </tr>
+			  <tr>
+			    <td>reverse_each { |x| … }</td>
+			    <td>Yields all elements in reverse order</td>
+			  </tr>
+			     <tr>
+			    <th>Sorting</th>
+			    
+			  </tr>
+			  <tr>
+			    <td>sort [{ |a, b| … }] </td>
+			    <td>Returns array sorted by <=> operator or by block. Default block { |a, b| a <=> b }. </td>
+			  </tr>
+			  <tr>
+			    <td>sort_by { |x| … } </td>
+			    <td>Returns array sorted by the return value of the block.</td>
+			  </tr>
+			  <tr>
+			    <td>each_cons(n) { |x| … } </td>
+			    <td>Yields each possible array of n consecutive elements.</td>
+			  </tr>
+			  <tr>
+			    <td>max [{ |a, b| … }]  </td>
+			    <td>Returns maximum element. Default block { |a, b| a <=> b }.</td>
+			  </tr>
+			  <tr>
+			    <td>max_by { |x| … }  </td>
+			    <td>Returns element with maximum block return value.</td>
+			  </tr>
+			  <tr>
+			    <td>minmax [{ |a, b| … }]</td>
+			    <td>Returns [min, max] using block return value.</td>
+			  </tr>
+			</table>
+
+			</div>
+	<!-- 	<a href="http://nowakoff.github.io/blog/ruby-classes.html">
+			<img src="./imgs/cosmos.jpg" alt="Post img">
+			<h1 class="white ba-mickey ff-ver">To the Class!</h1>
+		</a> -->
+		
+
+
+	
+
+		
+	
+
+	</section>
+	
+
+</body>
+
+</html>
