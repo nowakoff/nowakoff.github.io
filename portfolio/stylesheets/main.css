@@ -26,8 +26,91 @@ h1.mainTitle{
     display: none;
 }
 
+.mobile{
+    display: none;
+}
+
+p.desc {
+    padding: 1em;
+}
+
+
 @media only screen and (max-width: 500px) {
 
+.portA {
+     margin: 1em 1em 1em 1em !important;
+}
+.portA:hover {
+    margin: 1em 1em 1em 1em !important; 
+}
+.desktop{
+     display: none;
+}
+
+.doted{
+        padding: 0 !important;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.36);
+    margin: 0 !important;
+    padding: 0.5em  !important; 
+    color: white;
+}
+
+.recipeBox {
+    
+    width: 85% !important;
+}
+
+.jobButton {
+    background-color: rgba(0, 0, 0, 0.34);
+    border: none;
+    padding: 1em !important;
+    width: 32% !important;
+    margin: 0 !important;
+    text-align: center;
+}
+.square{
+    width: 25%;
+}
+.steps {
+    
+    width: 50% !important;
+}
+.jobField {
+    padding: 1em !important ;
+    border: 3px solid rgba(0, 0, 0, 0.36);
+    color: rgba(0, 0, 0, 0.36);
+    overflow: scroll;
+    height: 30em;
+}
+.cointainer {
+    margin: 2% 3% 2% 3% !important; 
+    opacity: 1;
+}
+
+.none{
+    display: none !important;
+}
+
+.portrait{
+    width:25%;
+}
+
+.desc{
+    padding: 1 !important;
+    font-size: 1.5em !important;
+}
+
+.descTi{
+    padding: 1 !important;
+    color: acquablue;
+}
+.mobile{
+    display: block;
+    padding: 0.5em
+}
 nav, footer {
     padding: 0em;
 }
@@ -263,8 +346,11 @@ li a {
     font-size: 1.3em;
     color: black;
 }
-.portrait{
-    width: 100%;
+
+@media only screen and (min-width: 500px) {
+    .portrait{
+        width: 100%;
+    }
 }
 
 .vertical{
