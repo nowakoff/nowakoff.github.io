@@ -1,4 +1,11 @@
 @media only screen and (max-width: 500px) {
+
+    .blockPort img{
+    border-radius: 100%;
+    border: 0.2em solid;
+    width: 70%;
+    }
+
     .aboutSite{
     padding: 1em;
     font-size: 1.5em;
@@ -101,7 +108,6 @@
 
     .portrait{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.63);
     margin: 1;
     }
 
@@ -118,7 +124,6 @@
         opacity : 0.5;
         z-index: -1; 
         color: white;
-        background-color: black;
     }
 
     .desc{
@@ -201,6 +206,13 @@
 }
 
 @media only screen and (min-width: 500px) {
+
+    .blockPort img{
+    border-radius: 100%;
+    border: 0.2em solid;
+    width: 20em;
+    height:20em;
+    }
     .portrait{
     width: 100%;
     }
@@ -499,13 +511,6 @@ li a {
     display: inline-block;
 }
 
-.blockPort img{
-    BORDER-RADIUS: 100%;
-    border: 0.2EM SOLID;
-    width: 20em;
-    height:20em;
-}
-
 
 .b-radious {
     border-radius: 1em;
@@ -545,6 +550,7 @@ li a {
 .portA{
     margin: 0em 1em 4em 3em;
     display: inline-block;
+    text-align: center;
 }
 .portA:hover{
     margin: 0em 1em 4em 3em;
