@@ -11,5 +11,8 @@ $( document ).ready(function() {
   			$('.dropdown').css('display','none');
   			$('.nav').css('display','none');
 		});
+    $(function() {
+      $( "#datepicker" ).datepicker();
+    });
 
 });

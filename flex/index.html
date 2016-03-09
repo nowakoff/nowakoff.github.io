@@ -1,65 +1,158 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="script.js" type="text/javascript"></script>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="script.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-</head>
-<body>
-	<header class="header">
-		<img class="logo" src="burger.png">
-		<ul class="navDesktop">
-				<a href="#about"><li>About</li></a>
-				<a href="#menu"><li>Menu</li></a>
-				<a href="#booking"><li>Booking</li></a>
-				<a href="#contact"><li>Contact</li></a>
-			</ul>
-		<a id="burger" href="#"><img class="burger"  src="burger.png"></a>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-	</header>
-	<section class="dropdown sectionDropdown">
-		<img class="logo" src="burger.png">
-		<a id="exit" href="#"><img class="burger"  src="exit.png"></a>
-	</section>
-	<ul class="nav">
-				<a href="#about"><li>About</li></a>
-				<a href="#menu"><li>Menu</li></a>
-				<a href="#booking"><li>Booking</li></a>
-				<a href="#contact"><li>Contact</li></a>
-			</ul>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	</head>
+	<body>
+	<!-- 	<header class="header">
+			<img class="logo" src="logo.png">
+			<ul class="navDesktop">
+				<a href="#about"><li>ABOUT</li></a>
+				<a href="#menu"><li>MENU</li></a>
+				<a href="#booking"><li>BOOKING</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
+				</ul>
+			<a id="burger" href="#"><img class="burger"  src="burger.png"></a>
+		</header> -->
+		<section class="dropdown sectionDropdown">
+
+			<img class="logo" src="burger.png">
+			<a id="exit" href="#"><img class="burger"  src="exit.png"></a>
+		</section>
+		<ul class="nav">
+			<a href="#about"><li>ABOUT</li></a>
+			<a href="#menu"><li>MENU</li></a>
+			<a href="#booking"><li>BOOKING</li></a>
+			<a href="#contact"><li>CONTACT</li></a>
+		</ul>
 		<section id="mainPic" class="mainPictureSection">
-			<h3 class="heading">MAIN PIC</h3>
-			<img class="deer" src="deer.png">
+			<!-- <h3 class="heading">MAIN PIC</h3> -->
+			<ul class="navDesktop">
+				<a href="#about"><li>ABOUT</li></a><span class="white">|</span>
+				<a href="#menu"><li>MENU</li></a><span class="white">|</span>
+				<a href="#booking"><li>BOOKING</li></a><span class="white">|</span>
+				<a href="#contact"><li>CONTACT</li></a>
+			</ul>
+			<img class="logoMainPic" src="logo.png">
+			<!-- <img class="deer" src="deer.png"> -->
 		</section>
-	<main class="content">
-		<hr class="rotate">
-		<hr>
-		<section id="about" class="section setImg aboutBackground">
-			<h3 class="heading">ABOUT</h3>
-			<br>
-			<text class="aboutText">Our willingness to keep with the Polish culinary tradition has always been present. We specialize in authentic dishes that are a true flavor of the country we love. Our special herb blend will leave your mouth watering, and our fresh meats, cheeses, and vegetables will always bring you back to our homeland.</text>
-			<!-- <img class="aboutImg" src="p.jpg"
-			> -->
-		</section>
-		<section id="menu" class="section">
-			<h3 class="heading">MENU</h3>
-			<a class="" href=""><img class=" clearLeft menuImg" src="specials.png"></a>
-			<a href=""><img class="menuImg" src="menu.png"></a>
-			<a href=""><img class="menuImg" src="drinks.png"></a>
-		</section>
-		<section id="booking" class="section">
-			<h3 class="heading">BOOKING</h3>
-		</section>
-		<section id="contect" class="section">
-			<h3 class="heading">CONTACT</h3>
-		</section>
-	</main>
-	<footer class="footer">
-			<h3 class="heading">FOOTER</h3>
+		<main class="content">
+			<section id="about" class="section setImg aboutBackground">
+				<text class="aboutText">Our willingness to keep with the Polish culinary tradition has always been present. We specialize in authentic dishes that are a true flavor of the country we love. Our special herb blend will leave your mouth watering, and our fresh meats, cheeses, and vegetables will always bring you back to our homeland.</text>
+				<img class="aboutImg" src="about.png"
+				>
+			</section>
+			<section id="menu" class="section">
+				<!-- Button trigger modal -->
+				<a type="a" class="" data-toggle="modal" data-target="#specials"><img class="clearLeft menuImg" src="specials.png">
+				</a>
+				<a type="a" class="" data-toggle="modal" data-target="#food"><img class="menuImg" src="menu.png">
+				</a>
+				<a type="a" class="" data-toggle="modal" data-target="#drinks"><img class="menuImg" src="drinks.png">
+				</a>
+
+				<!-- Modal -->
+				<div class="modal fade" id="specials" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Specials</h4>
+					    </div>
+				      <div class="modal-body">
+				        <img src="menuimg.png">
+				      </div>
+			      </div>
+			    </div>
+			  </div>
+			  				<!-- Modal -->
+				<div class="modal fade" id="food" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Menu</h4>
+					    </div>
+				      <div class="modal-body">
+				        ...sdfddd
+				      </div>
+			      </div>
+			    </div>
+			  </div>
+			  				<!-- Modal -->
+				<div class="modal fade" id="drinks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Drinks</h4>
+					    </div>
+				      <div class="modal-body">
+				        <img src="menuimg.png">
+				      </div>
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of modals  -->
+			</section>
+			<section id="booking" class="section bookingSection">
+				<h1>BOOKING</h1>
+				<form class="bookingForm">
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Name</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Number of guests</label>
+				    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Number">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Additional Information</label>
+				    <textarea class="form-control" id="exampleInputPassword1" placeholder="Additional Information"></textarea>
+				  </div>
+				  <p>Date: <input type="text" id="datepicker"></p>
+				  <button type="submit" class="btn btn-default">Book</button>
+				</form>
+				<section class="bookingText">
+		    <p>Book your table today! Keep in mind that we experience a full dining room during the dinner rush, so please book 2 days ahead of time.</p>
+		    <p>We are also able to cater your next party or event!</p>
+		    <p>Give us a call or stop in to book your catering service.  </p>
+		    <p>You may also book a table by calling us at <br> 01865 243 390</p>
+		    </section>
+			</section>
+			<section id="contact" class="section">
+				<h1>CONTACT</h1>
+		    <p> Comments or concerns?</p>
+		    <p>E&#45;Mail us at <br> manager@hajduczek.co.uk</p>
+		    <p>Phone&#58; 01865 243 390</p>
+		    <p>Address&#58; 84 Cowley Road &#45; Oxford &#45; OX4 1JB</p>
+		    <a href="https://www.google.dk/maps/place/84+Cowley+Rd,+Oxford,+Oxfordshire+OX4+1JB,+UK/@51.7487065,-1.2424142,17z/data=!3m1!4b1!4m2!3m1!1s0x4876c14dcf888d3f:0xb82fc800a0fc397f"><img class="map" src="map.png"></a>
+			</section>
+		</main>
+		<footer class="footer">
+			<!-- <h3 class="heading">FOOTER</h3> -->
+			<img class="logo" src="logo.png">
+			<section class="social">
+				<i class="fa fa-facebook-square fa-6"></i>
+				<i class="fa fa-map-marker fa-6"></i>
+				<i class="fa fa-instagram fa-6"></i>
+			</section>
 		</footer>
-</body>
+	</body>
 </html>
