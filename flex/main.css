@@ -111,6 +111,10 @@
 		color: grey;
 		text-decoration:none;
 	}
+	/*.navDesktop a:focus{
+		color: red;
+		text-decoration:none;
+	}*/
 	.navDesktop li{
 		list-style-type: none;
 		font-family: alpaca;
@@ -344,15 +348,18 @@ hr {
 .bookingForm{
 	width: 40%;
     margin: 5%;
-	float: right;
-	padding: 5%;
-	background-color: rgba(0, 0, 0, 0.55);
+    float: right;
+    padding: 5%;
+    background-color: rgba(93, 93, 93, 0.55);
 }
 .bookingText{
-	background-color: rgba(0, 0, 0, 0.55);
-	width: 40%;
+	font-size: 1.6em;
+    font-family: walkway;
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 40%;
     margin: 5%;
-	float: left;
+    float: left;
+    padding: 5%;
 }
 section#menu{
 	 padding: 15% 0% 15% 0%;
