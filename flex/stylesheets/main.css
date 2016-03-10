@@ -14,11 +14,28 @@
 
 @media only screen and (max-width: 500px) {
 
+	.nav{
+		position: fixed;
+		top:0;
+		z-index: 10;
+		width: 100%;
+	    padding: 2.5%;
+	}
+	a#exit {
+		z-index: 11;
+	    position: fixed;
+	    top: 0px;
+	    right: 0px;
+	}
+	a#burger{
+		z-index: 11;
+	    position: fixed;
+	    top: 0px;
+	    right: 0px;
+	}
 	.bookingSection{
 		background-size: 100% ;
 	}
-
-
 	.sectionsTitle{
 		font-size: 2em;
 		margin: 1em;
@@ -76,10 +93,14 @@
 	.header{
 		    width: 100%;
 	}
-	.burger{
-		display: block;
-		float: right;
-		width: 2em;
+	
+	.burger {
+	    position: fixed;
+	    display: block;
+	    /* float: right; */
+	    width: 2em;
+	    top: 10px;
+	    right: 10px;
 	}	
 	.logo{
 	float: left;
@@ -91,6 +112,7 @@
 		display: none;
 	}
 	.aboutText {
+		padding: 1em;
 		width: 90%;
 		font-size: 2em;
 	}
@@ -352,17 +374,13 @@ hr {
 
 /* NAVIGATION *********************************/
 
-.sectionDropdown{
-	position: relative;
-	width: 100%;
-    padding: 2.5%;
-}
 
 
-.dropdown{
+
+/*.dropdown{
 	display: none;
 	overflow: overlay;
-}
+}*/
 .nav{
 	float: left;
     list-style-type: disc;
@@ -385,7 +403,7 @@ hr {
 	padding: 1em;
 	margin-bottom: 0.1em;
     display: block;
-    background-color: rgba(216, 216, 216, 0.71);
+    background-color: rgba(139, 124, 135, 0.73);;
     text-decoration: none;
     color: white
 }
