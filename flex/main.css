@@ -319,17 +319,17 @@ hr {
 /*font-awesome**********/
 
 .fa { 
-	transform: scale(3,3);
-	margin: 1em;
+	transform: scale(7,7);
+	margin: 3em;
 	}
 .fa-facebook-square:hover {
-    color: red;
+    color: grey;
 }
 .fa-instagram:hover {
-    color: red;
+    color: grey;
 }
 .fa-map-marker:hover {
-    color: red;
+    color: grey;
 }
 
 
@@ -368,4 +368,75 @@ section#menu{
 .bookingSection{
 	background-image: url(background.jpg);
 	background-size: 100% 100%;
+}
+
+.footer{
+	overflow: overlay;
+	padding: 2em;
+}
+
+.footerLogo{
+
+	float: left;
+	width: 5em;
+}
+
+.logotext{
+	text-align: center;
+    color: white;
+    font-family: walkway;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+.back{
+	background-image: url(win.jpg);
+	background-size: 100% 100%;	
+}
+.back2{
+	background-image: url(win2.jpg);
+	background-size: 100% 100%;
+}
+.back3{
+	background-image: url(win3.jpg);
+	background-size: 100% 100%;	
+}
+
+.items{
+	position: relative;
+}
+.box {
+    display: inline-block;
+    width: 30em;
+    max-width: 30%;
+    max-height: 30%;
+    min-width: 23%;
+    min-height: 23%;
+    height: 30em;
+    overflow: scroll;
+}
+
+.specialsBack{
+	background-image: url(specials.jpg);
+	background-size: 100% 100%;	
+}
+
+.specialsBack2{
+	background-image: url(specials2.jpg);
+	background-size: 100% 100%;	
+}
+
+.specialsBack3{
+	background-image: url(specials3.jpg);
+	background-size: 100% 100%;	
+}
+
+.menuBack{
+	background-image: url(food.jpg);
+	background-size: 100% 100%;	
+}
+
+.menuBack2{
+	background-image: url(food2.jpg);
+	background-size: 100% 100%;	
 }
