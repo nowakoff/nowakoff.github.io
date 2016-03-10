@@ -368,7 +368,7 @@ hr {
     float: left;
     clear: left;
     color: white;
-    text-align: justify;
+    /*text-align: justify;*/
     font-family: walkway;
 }
 
@@ -601,5 +601,13 @@ label {
 
     /* text-align: center; */
 }
+.darkish{
+	background-color: rgba(0, 0, 0, 0.62);
+	margin: 0 10% 0 10%;
+	width: 80%;
+	color: white;
+    font-family: walkway;
+    padding: 1em; 
 
+}
 
