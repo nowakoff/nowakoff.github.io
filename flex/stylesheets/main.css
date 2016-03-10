@@ -13,6 +13,41 @@
 */
 
 @media only screen and (max-width: 500px) {
+
+	.bookingSection{
+		background-size: 100% ;
+	}
+
+
+	.sectionsTitle{
+		font-size: 2em;
+		margin: 1em;
+	    font-family: alpaca;
+	    color: #AA9FA7;
+	    padding: 0em 0em 0em 2em;
+	}
+
+	section#menu {
+    text-align: center;
+        padding: 15% 0 15% 0;
+	}
+
+
+
+
+	.mainPictureSection {
+    	background-size: 200%;
+    	height: 30em;
+	}	
+
+	.logoMainPic {
+	    text-align: center;
+	    margin: 15% 30% 0% 30%;
+	    width: 40%;
+	}
+
+
+
 	.mobileNone{
 		display: none
 	}
@@ -35,9 +70,7 @@
 		display: none;
 	}
 
-	.mainPictureSection{
-	height: 20em;
-	}
+
 
 
 	.header{
@@ -76,6 +109,31 @@
 	}
 }
 @media only screen and (min-width: 500px) {
+
+	.bookingSection{
+		background-size: 100% 100% ;
+	}
+
+	.sectionsTitle{
+		font-size: 5em;
+		margin: 1em;
+	    font-family: alpaca;
+	    color: #AA9FA7;
+	    padding: 0em 0em 0em 2em;
+	}
+
+	section#menu{
+		padding: 15% 0% 15% 0%;
+	}
+
+	.logoMainPic{
+		text-align: center;
+		margin: 15% 40% 0% 40%;
+	    width: 20%;
+	}
+
+
+
 	.desktopNone{
 		display: none
 	}
@@ -139,7 +197,7 @@
 	    right: 25%;
 	    z-index: 6;
 	    /*opacity: 0.5;*/
-	    background-color: rgba(216, 216, 216, 0.71);
+	    background-color: rgba(139, 124, 135, 0.73);
 	}
 	/*.navDesktop::after{
     width: 100%;
@@ -240,11 +298,8 @@ hr {
     overflow: overlay;
     background-image: url(../imgs/lake.png);
 }
-.logoMainPic{
-	text-align: center;
-	margin: 15% 40% 0% 40%;
-    width: 20%;
-}
+
+
 
 /*mainm*/
 
@@ -392,23 +447,22 @@ hr {
     margin: 5%;
     float: right;
     padding: 5%;
-    background-color: rgba(93, 93, 93, 0.55);
+    background-color: rgba(139, 124, 135, 0.73);
 }
 .bookingText{
 	font-size: 1.6em;
     font-family: walkway;
     background-color: rgba(255, 255, 255, 0.93);
-    margin: 5%;
     float: left;
+ /*   margin: 0% 5% 5% 5%;
+    padding: 0% 5% 5% 5%;*/
+    margin: 5%;
     padding: 5%;
 }
-section#menu{
-	 padding: 15% 0% 15% 0%;
-}
+
 
 .bookingSection{
 	background-image: url(../imgs/background.jpg);
-	background-size: 100% 100%;
 }
 
 .footer{
@@ -512,20 +566,22 @@ section#menu{
 }
 
 
-
-
-
-
-
-@media only screen and (max-width: 500px)
-header {
-    /* overflow: overlay; */
-    z-index: 5;
-    position: fixed;
-    /* top: 0; */
-    /* left: 0; */
-    /* width: 95%; */
-    /* background-color: black; */
-    /* color: white; */
-    padding: 2.5%;
+.menuSection{
+	background-color: rgba(187, 182, 190, 0.65);
 }
+
+
+label {
+    font-family: alpaca;
+    color: white;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+
+    /* text-align: center; */
+}
+
+
