@@ -1,11 +1,11 @@
 @font-face {
     font-family: alpaca;
-    src: url(./alpaca/AlpacaScarlettDemo.ttf);
+    src: url(../fonts/AlpacaScarlettDemo.ttf);
 }
 
 @font-face {
     font-family: walkway;
-    src: url(./Walkway.ttf);
+    src: url(../fonts/Walkway.ttf);
 }
 /*h1, h3{
 	font-family: alpaca !important;
@@ -13,6 +13,33 @@
 */
 
 @media only screen and (max-width: 500px) {
+
+	.bookingText{
+		width: 80%;
+	}
+
+	.bookingForm{
+		width: 80%;
+	}
+
+	.menuImg{
+    display: inline-block;
+    width: 70%;
+    margin: 1em;
+	}
+
+	.aboutImg{
+		display: none;
+	}
+
+	.mainPictureSection{
+	height: 20em;
+	}
+
+
+	.header{
+		    width: 100%;
+	}
 	.burger{
 		display: block;
 		float: right;
@@ -25,7 +52,7 @@
 	background-color: white;
 	}
 	.mainPictureSection{
-		margin-top: 5em;
+		margin-top: 2em;
 	}
 	.navDesktop{
 		display: none;
@@ -50,10 +77,41 @@
 	}
 }
 @media only screen and (min-width: 500px) {
+
+	.bookingText{
+		width: 40%;
+	}
+	.bookingForm{
+		width: 40%;
+	}
+
+	.menuImg{
+		display: inline-block;
+		width: 30%;
+		margin-left: 2%;
+		float: left;
+	}
+
+	.aboutImg{
+		float: right;
+    	width: 40%;
+    	margin: 15% 8% 15% 2%;
+	}
+
+	.mainPictureSection{
+	height: 70em;
+	}
+
+
 	.logo{
 		display: none;
 	}
+	.none{
+		display: none;
+	}
 	header{
+		overflow: overlay;
+		position: relative;
 		display: none;
 	}
 	.aboutText {
@@ -177,17 +235,8 @@ hr {
 .mainPictureSection{
 	position: relative;
 	width: 100%;
-	height: 70em;
     overflow: overlay;
-    background-image: url(lake.png);
-
-   /* background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 66.64%;*/
-
-
+    background-image: url(../imgs/lake.png);
 }
 .logoMainPic{
 	text-align: center;
@@ -214,7 +263,7 @@ hr {
 .aboutBackground::after{
     width: 100%;
     /*background-repeat: repeat-x;*/
-    background-image: url(about.png);
+    background-image: url(../imgs/about.png);
     background-size: 100% 100%;
     content : "";
     display: block;
@@ -228,13 +277,6 @@ hr {
     color: white;
 }
 
-.aboutImg{
-	float: right;
-    /*width: 40%;
-    margin: 2% 2% 2% 2%;*/
-        width: 40%;
-    margin: 15% 8% 15% 2%;
-}
 
 /*.setImg{
 	overflow: overlay;
@@ -299,12 +341,7 @@ hr {
 
 /* MENU section *********************************/
 
-.menuImg{
-	display: inline-block;
-	width: 30%;
-	margin-left: 2%;
-	float: left;
-}
+
 .menuImg:hover{
 	opacity: 0.5
 }
@@ -348,7 +385,6 @@ hr {
 }
 
 .bookingForm{
-	width: 40%;
     margin: 5%;
     float: right;
     padding: 5%;
@@ -358,7 +394,6 @@ hr {
 	font-size: 1.6em;
     font-family: walkway;
     background-color: rgba(255, 255, 255, 0.93);
-    width: 40%;
     margin: 5%;
     float: left;
     padding: 5%;
@@ -368,7 +403,7 @@ section#menu{
 }
 
 .bookingSection{
-	background-image: url(background.jpg);
+	background-image: url(../imgs/background.jpg);
 	background-size: 100% 100%;
 }
 
