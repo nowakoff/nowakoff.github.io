@@ -132,6 +132,10 @@
 }
 @media only screen and (min-width: 500px) {
 
+	.footerLogo{
+		float: left;
+	}
+
 	.bookingSection{
 		background-size: 100% 100% ;
 	}
@@ -177,7 +181,7 @@
 	.aboutImg{
 		float: right;
     	width: 40%;
-    	margin: 15% 8% 15% 2%;
+    	margin: 15% 8% 2% 2%;
 	}
 
 	.mainPictureSection{
@@ -199,7 +203,7 @@
 	.aboutText {
 	    font-size: 2em;
 		width: 40%;
-    	margin: 15% 2% 15% 8%;
+    	margin: 15% 2% 2% 8%;
 	}
 	.burger{
 		display: none;
@@ -450,9 +454,16 @@ hr {
 
 
 /*modals***********************/
-.modal-content{
+.modal-content.drinks{
 	    background-color: #B8B0A4 !important;
 }
+.modal-content.specials{
+	    background-color:  #C4CBCF !important;
+}
+.modal-content.menu{
+	    background-color:  #D1CCC7 !important;
+}
+
 .modal-dialog {
 	width: 90% !important;
 }
@@ -490,7 +501,6 @@ hr {
 }
 
 .footerLogo{
-	float: left;
 	width: 9em;
 	padding: 2em;
 }
@@ -602,8 +612,8 @@ label {
     /* text-align: center; */
 }
 .darkish{
-	background-color: rgba(0, 0, 0, 0.62);
-	margin: 0 10% 0 10%;
+	background-color:rgb(161, 148, 151);
+	/*margin: 0 10% 0 10%;*/
 	color: white;
     font-family: walkway;
     padding: 0.2em; 
